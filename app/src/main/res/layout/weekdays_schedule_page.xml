@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    >
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:foregroundGravity="center"
+        android:overScrollMode="never"
+        android:clipToPadding="false"
+        android:id="@+id/viewpager_weekdays"
+        android:layout_marginTop="20dp"
+        >
+    </androidx.viewpager.widget.ViewPager>
+
+    <ProgressBar
+        android:layout_below="@+id/viewpager_weekdays"
+        android:layout_centerHorizontal="true"
+        android:layout_width="140dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progressTint="#D80400"
+        android:id="@+id/weekday_progressBar"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/weekday_progressBar"
+        android:layout_marginTop="105dp"
+        app:cardBackgroundColor="#CE4E38"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="cursive"
+                android:text="Done"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

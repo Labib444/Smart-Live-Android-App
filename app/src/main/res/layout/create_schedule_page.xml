@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6e6"
+    >
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:background="#fff"
+        android:id="@+id/horizontalView_create_schedule"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbars="none"
+        android:layout_marginTop="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="350dp"
+                app:cardBackgroundColor="#e6e6e6"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                app:cardElevation="15dp"
+                android:layout_marginLeft="15dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/twotone_add_circle_white_48"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="90dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Schedule 1"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="26dp"
+                        android:textStyle="bold"
+                        android:fontFamily="cursive"
+                        android:layout_marginTop="70dp"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="350dp"
+                app:cardBackgroundColor="#e6e6e6"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                app:cardElevation="15dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/twotone_add_circle_white_48"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="90dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Schedule 2"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="26dp"
+                        android:textStyle="bold"
+                        android:fontFamily="cursive"
+                        android:layout_marginTop="70dp"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="350dp"
+                app:cardBackgroundColor="#e6e6e6"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                app:cardElevation="15dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="90dp"
+                        android:src="@drawable/twotone_add_circle_white_48" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="70dp"
+                        android:fontFamily="cursive"
+                        android:text="Schedule 3"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="26dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="#FF9800"
+        android:layout_below="@+id/horizontalView_create_schedule"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="cursive"
+                android:text="Edit Schedule"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="#F44336"
+        android:layout_below="@+id/horizontalView_create_schedule"
+        android:layout_marginTop="100dp"
+        app:cardCornerRadius="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="cursive"
+                android:text="Delete Schedule"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

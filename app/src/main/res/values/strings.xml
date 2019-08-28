@@ -1,0 +1,22 @@
+<resources>
+
+!-- ****introduction_page**** --!
+    <string name="app_name">Live Smart</string>
+    <string name="intro_header">
+        Welcome to Smart Live
+    </string>
+    <string name="intro_msg">
+
+        You have to setup a schedule for this is app.
+        This page will not be shown again if you already
+        have a schedule. Please press create a schedule button
+        to continue.
+    </string>
+    <string name="intro_button">
+        Create Schedule
+    </string>
+!-- ************************ --!
+
+
+
+</resources>
