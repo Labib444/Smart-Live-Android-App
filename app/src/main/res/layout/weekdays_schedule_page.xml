@@ -35,6 +35,7 @@
         android:layout_below="@+id/weekday_progressBar"
         android:layout_marginTop="105dp"
         app:cardBackgroundColor="#CE4E38"
+        android:id="@+id/done_cardview"
         >
 
         <LinearLayout

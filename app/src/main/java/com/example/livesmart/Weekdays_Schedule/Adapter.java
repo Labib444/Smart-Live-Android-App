@@ -1,6 +1,7 @@
 package com.example.livesmart.Weekdays_Schedule;
 
 import android.content.Context;
+import android.content.Intent;
 import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
 import com.example.livesmart.R;
+import com.example.livesmart.ScheduleAddTimeActivity;
 
 import java.util.List;
 

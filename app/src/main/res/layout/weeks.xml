@@ -12,6 +12,8 @@
         android:layout_height="400dp"
         android:layout_margin="20dp"
         app:cardCornerRadius="20dp"
+        android:id="@+id/weekday_cardview"
+        android:onClick="weekday_onclick"
         >
 
         <LinearLayout

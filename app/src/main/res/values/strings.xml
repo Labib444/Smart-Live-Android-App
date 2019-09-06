@@ -1,6 +1,6 @@
 <resources>
 
-!-- ****introduction_page**** --!
+    !-- ****introduction_page**** --!
     <string name="app_name">Live Smart</string>
     <string name="intro_header">
         Welcome to Smart Live
@@ -15,8 +15,7 @@
     <string name="intro_button">
         Create Schedule
     </string>
-!-- ************************ --!
-
+    !-- ************************ --!
 
 
 </resources>
